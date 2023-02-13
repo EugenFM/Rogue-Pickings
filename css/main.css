@@ -1,0 +1,96 @@
+/* BASE STYLES */
+
+body {
+    font-family: Montserrat;
+}
+.container {
+    width: 1200px;
+}
+
+header h1 {
+    float: left;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 25px 0 25px 15px;
+}
+header span {
+    color: #77a466;
+}
+nav ul{
+    padding: 35px 0 0 0;
+    float: right;
+}
+nav ul li {
+    display: inline;
+    padding-left: 25px;
+}
+nav ul li a {
+    font-size: 14px;
+    color: #77a466;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    margin: 0 20px;
+}
+.bottom-section h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.bottom-section p {
+    margin: 15px 25px;
+}
+h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 25px;
+    font-weight: bold;
+}
+.top-section,
+.bottom-section {
+    clear: both;
+}
+
+.first-column,
+.second-column, 
+.third-column {
+    float: left;
+    width: 398px;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    height: 200px;
+}
+.second-column {
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+
+.first-column ul {
+    list-style: none;
+    line-height: 35px;
+    padding-left: 25px;
+}
+ul li {
+    color: #77a466;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+footer span {
+    color: #77a466;
+    font-family: "Pinyon script";
+    font-style: italic;
+    text-transform: lowercase;
+}
